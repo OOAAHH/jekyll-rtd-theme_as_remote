@@ -1,3 +1,23 @@
+# 用法
+修改`_config.yml`中的对应参数即可。
+remote_theme: clearpathrobotics/jekyll-rtd-theme@main
+## 使用限制大约是
+GitHub Pages 站点受到以下使用限制的约束：
+
+    - GitHub Pages 源存储库的建议限制为 1 GB。 有关详细信息，请参阅“关于 GitHub 上的大文件”
+
+    - 发布的 GitHub Pages 站点不得超过 1 GB。
+
+    - 如果花费的时间超过 10 分钟，GitHub Pages 部署将超时。
+
+    - GitHub Pages 站点的软带宽限制为每月 100 GB。
+
+    - GitHub Pages 站点的_软_限制为每小时 10 次生成。 如果使用自定义 GitHub Actions 工作流生成和发布站点，则此限制不适用。
+
+    - 为了为所有 GitHub Pages 站点提供一致的服务质量，可能会实施速率限制。 这些速率限制无意干扰 GitHub Pages 的合法使用。 如果你的请求触发了速率限制，你将收到相应响应，其中包含 HTTP 状态代码 429 以及信息性 HTML 正文。
+
+    - 如果你的站点超出这些使用配额，我们可能无法为你的站点提供服务；或者你可能收到来自 GitHub 支持 的礼貌电子邮件，建议降低站点对服务器影响的策略，包括将第三方内容分发网络 (CDN) 置于你的站点前，利用其他 GitHub 功能（如发行版）或转用可能更符合需求的其他托管服务。
+
 # jekyll-rtd-theme
 
 ![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
